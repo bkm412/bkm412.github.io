@@ -25,7 +25,7 @@ image나 iFrame 태그 내부에 lazyload라는 속성을 사용하면 됩니다
 
 사용자가 스크롤 하지 않는 경우 전혀 로드되지 않을 수 있기 때문에 신중하게 사용해야 합니다.
 
-* 현재 시점에서 LazyLoad는 크롬카나리아에서만 사용할 수 있으며 두 가지 필수 플래그를 필요로 합니다.
+현재 시점에서 LazyLoad는 크롬카나리아에서만 사용할 수 있으며 두 가지 필수 플래그를 필요로 합니다.
 
-1.chrome://flags/#enable-lazy-image-loading
-2.chrome://flags/#enable-lazy-frame-loading
+* chrome://flags/#enable-lazy-image-loading
+* chrome://flags/#enable-lazy-frame-loading
